@@ -1,11 +1,11 @@
-# Bright. -- E-Commerce Landing Page
+# Bright.E-Commerce Landing Page
 
 A modern and responsive **E-Commerce Landing Page** built using
 **HTML5** and **CSS3-GRID**.
 
 ## 🚀 Live Demo
 
-🔗 https://im-ayushgowda.github.io/COHORT-03/ASSIGNMENT%20-%2002/
+🔗 https://im-ayushgowda.github.io/COHORT/ASSIGNMENT-2/
 
 ---
 
