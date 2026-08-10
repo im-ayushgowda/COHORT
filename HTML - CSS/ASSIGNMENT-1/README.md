@@ -6,7 +6,7 @@ A modern and responsive hotel booking landing page built using **HTML5** and **C
 
 ## 🚀 Live Demo
 
-🔗 https://im-ayushgowda.github.io/COHORT/ASSIGNMENT-1/
+🔗 https://im-ayushgowda.github.io/COHORT/HTML%20-%20CSS/ASSIGNMENT-1/
 
 ---
 
