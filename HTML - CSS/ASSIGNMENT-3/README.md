@@ -6,7 +6,7 @@ A modern and responsive landing page built using **HTML5** and **CSS3**. The pro
 
 Add your GitHub Pages link here:
 
-https://im-ayushgowda.github.io/COHORT/ASSIGNMENT-3/
+https://im-ayushgowda.github.io/COHORT/HTML%20-%20CSS/ASSIGNMENT-3/
 
 ---
 
