@@ -3,7 +3,7 @@
 A modern and minimal fashion product landing page built using **HTML and CSS** as part of my Full Stack Web Development learning journey.
 
 🔗 **Live Demo:**
-https://im-ayushgowda.github.io/COHORT/ASSIGNMENT-4/
+https://im-ayushgowda.github.io/COHORT/HTML%20-%20CSS/ASSIGNMENT-4/
 
 ---
 
