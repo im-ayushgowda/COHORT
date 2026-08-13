@@ -1,4 +1,3 @@
-[Uploading README(2).md…]()
 # JavaScript Practice Sheets
 
 A structured JavaScript practice website designed for building programming fundamentals, logic, and problem-solving skills through progressive practice questions.
