@@ -4,7 +4,7 @@ A structured JavaScript practice website designed for building programming funda
 
 ## 🌐 Live Website
 
-[Open the JavaScript Practice Sheets](https://im-ayushgowda.github.io/COHORT/ASSIGNMENT-4/)
+https://im-ayushgowda.github.io/COHORT/JAVA-SCRIPT/PRACTICE%20WEBSITE/
 
 ## 📚 About the Project
 
