@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -387,7 +386,7 @@
 <body>
 <div class="progress-bar" id="progress"></div>
 <header><div class="logo">JS<span>.</span>Practice</div><div class="search-wrap"><span class="search-icon">🔍</span><input type="text" id="search" placeholder="Search questions…"></div></header>
-<div class="hero"><div class="hero-tag">JavaScript Beginner Practice • Phase -1 + Phase -2 Sheet -1</div><h1>Build Your JavaScript<br><em>Logic Step by Step</em></h1><p>Phase -1 builds the fundamentals. Phase -2 Sheet -1 builds functions, arrays, objects, functional programming and logic. Sheet -2 adds focused Array practice from intermediate to hard level.</p><div class="stats"><div class="stat"><div class="stat-n">326</div><div class="stat-l">Questions</div></div><div class="stat"><div class="stat-n">30</div><div class="stat-l">Parts</div></div><div class="stat"><div class="stat-n">100%</div><div class="stat-l">Practice</div></div></div></div>
+<div class="hero"><div class="hero-tag">JavaScript Beginner Practice • Phase -1 + Phase -2 Sheet -1</div><h1>Build Your JavaScript<br><em>Logic Step by Step</em></h1><p>Phase -1 builds the fundamentals. Phase -2 Sheet -1 builds functions, arrays, objects, functional programming and logic. Sheet -2 adds focused Array practice from intermediate to hard level.</p><div class="stats"><div class="stat"><div class="stat-n">347</div><div class="stat-l">Questions</div></div><div class="stat"><div class="stat-n">31</div><div class="stat-l">Parts</div></div><div class="stat"><div class="stat-n">100%</div><div class="stat-l">Practice</div></div></div></div>
 <div class="nav-pills"><button class="pill active" data-c="all" onclick="filterSection('all',this)">All</button>  <button class="pill" data-c="2" onclick="filterSection('p1',this)">Part 1 — Console & Basics</button>
   <button class="pill" data-c="3" onclick="filterSection('p2',this)">Part 2 — Variables</button>
   <button class="pill" data-c="4" onclick="filterSection('p3',this)">Part 3 — Data Types</button>
@@ -400,7 +399,7 @@
   <button class="pill" data-c="1" onclick="filterSection('p10',this)">Part 10 — Ternary Operator</button>
   <button class="pill" data-c="2" onclick="filterSection('p11',this)">Part 11 — Mixed Practice Questions</button>
   <button class="pill" data-c="3" onclick="filterSection('p12',this)">Part 12 — Logical Thinking Questions</button>
-  <button class="pill" data-c="4" onclick="filterSection('p13',this)">Part 13 — Challenge Questions for Beginners</button> <button class="pill" data-c="5" onclick="filterSection('phase2',this)">Phase -2 Sheet - 1</button> <button class="pill" data-c="4" onclick="filterSection('phase2-sheet2',this)">Phase -2 Sheet - 2 — Arrays</button> <button class="pill" data-c="3" onclick="filterSection('phase2-sheet3',this)">Phase -2 Sheet - 3 — Iteration</button> <button class="pill" data-c="5" onclick="filterSection('phase2-sheet4',this)">Phase -2 Sheet - 4 — Objects</button></div>
+  <button class="pill" data-c="4" onclick="filterSection('p13',this)">Part 13 — Challenge Questions for Beginners</button> <button class="pill" data-c="5" onclick="filterSection('phase2',this)">Phase -2 Sheet - 1</button> <button class="pill" data-c="4" onclick="filterSection('phase2-sheet2',this)">Phase -2 Sheet - 2 — Arrays</button> <button class="pill" data-c="3" onclick="filterSection('phase2-sheet3',this)">Phase -2 Sheet - 3 — Iteration</button> <button class="pill" data-c="5" onclick="filterSection('phase2-sheet4',this)">Phase -2 Sheet - 4 — Objects</button> <button class="pill" data-c="1" onclick="filterSection('beginner-task-sheet',this)">Part 31 — Beginner Task Sheet</button></div>
 <main id="main">
 <div class="section" id="p1"><div class="section-header"><span class="section-num">PART 01</span><h2 class="section-title">Console & Basics</h2><div class="section-line"></div></div><div class="qa-grid">
 <div class="qa-card" data-cat="2"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q1</span><span class="q-text">Print "Hello JavaScript" in the console.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first. Write and test your solution in your JavaScript file or browser console.</div></div>
@@ -8262,6 +8261,685 @@ console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
 
   </div>
 </div>
+
+<div class="section" id="beginner-task-sheet"><div class="section-header"><span class="section-num">PART 31</span><h2 class="section-title">Beginner Task Sheet — Functions, Loops, Strings & Arrays</h2><div class="section-line"></div></div>
+
+<div class="subsection-label">Part 1 — Variables, Functions &amp; Conditions</div>
+<div class="qa-grid">
+
+<div class="qa-card" data-cat="1"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q327</span><span class="q-text">Create a function that returns the sum of two numbers.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>add(a, b)</code> that returns their sum.</div>
+<pre><code>add(10, 20);
+<span class="output">// Output: 30</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function add(a, b) {
+  return a + b;
+}
+
+console.log(add(10, 20)); // 30</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="1"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q328</span><span class="q-text">Create a function that returns the square of a number.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>square(n)</code> that returns n * n.</div>
+<pre><code>square(5);
+<span class="output">// Output: 25</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function square(n) {
+  return n * n;
+}
+
+console.log(square(5)); // 25</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="1"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q329</span><span class="q-text">Create a function that checks whether a number is Even or Odd.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>checkEvenOdd(n)</code> that returns "Even" or "Odd".</div>
+<pre><code>checkEvenOdd(7);
+<span class="output">// Output: Odd</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function checkEvenOdd(n) {
+  return n % 2 === 0 ? &quot;Even&quot; : &quot;Odd&quot;;
+}
+
+console.log(checkEvenOdd(7)); // Odd</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="1"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q330</span><span class="q-text">Create a function that returns the larger number among two numbers.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>max(a, b)</code> that returns the larger value.</div>
+<pre><code>max(10, 20);
+<span class="output">// Output: 20</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function max(a, b) {
+  return a &gt; b ? a : b;
+}
+
+console.log(max(10, 20)); // 20</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="1"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q331</span><span class="q-text">Create a function that checks if a person is eligible to vote.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>isEligible(age)</code> that returns "Eligible" or "Not Eligible" (18+ can vote).</div>
+<pre><code>isEligible(18);
+<span class="output">// Output: Eligible</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function isEligible(age) {
+  return age &gt;= 18 ? &quot;Eligible&quot; : &quot;Not Eligible&quot;;
+}
+
+console.log(isEligible(18)); // Eligible</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+</div>
+
+<div class="subsection-label">Part 2 — Loops</div>
+<div class="qa-grid">
+
+<div class="qa-card" data-cat="2"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q332</span><span class="q-text">Print numbers from 1 to 50 using a loop.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first. Use a for loop to print 1 through 50.</div></div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>for (let i = 1; i &lt;= 50; i++) {
+  console.log(i);
+}</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="2"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q333</span><span class="q-text">Print all even numbers between 1 and 100.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first. Loop from 1 to 100 and print only even numbers.</div></div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>for (let i = 1; i &lt;= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="2"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q334</span><span class="q-text">Find the sum of numbers from 1 to 100.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first. Accumulate the sum in a loop.</div>
+<pre><code><span class="output">5050</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>let sum = 0;
+
+for (let i = 1; i &lt;= 100; i++) {
+  sum += i;
+}
+
+console.log(sum); // 5050</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="2"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q335</span><span class="q-text">Print the multiplication table of a number.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>table(n)</code> that prints n's multiplication table from 1 to 10.</div>
+<pre><code>table(5);
+
+<span class="output">5 x 1 = 5
+5 x 2 = 10
+...
+5 x 10 = 50</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function table(n) {
+  for (let i = 1; i &lt;= 10; i++) {
+    console.log(`${n} x ${i} = ${n * i}`);
+  }
+}
+
+table(5);</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="2"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q336</span><span class="q-text">Count how many digits are present in a number.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>countDigits(n)</code> that returns the digit count.</div>
+<pre><code>countDigits(12345);
+<span class="output">// Output: 5</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function countDigits(n) {
+  return Math.abs(n).toString().length;
+}
+
+console.log(countDigits(12345)); // 5</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+</div>
+
+<div class="subsection-label">Part 3 — Strings</div>
+<div class="qa-grid">
+
+<div class="qa-card" data-cat="3"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q337</span><span class="q-text">Reverse a string.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>reverseString(str)</code> that returns the reversed string.</div>
+<pre><code>reverseString(&quot;hello&quot;);
+<span class="output">// Output: olleh</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function reverseString(str) {
+  return str.split(&quot;&quot;).reverse().join(&quot;&quot;);
+}
+
+console.log(reverseString(&quot;hello&quot;)); // olleh</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="3"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q338</span><span class="q-text">Count vowels in a string.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>countVowels(str)</code> that returns the number of vowels.</div>
+<pre><code>countVowels(&quot;javascript&quot;);
+<span class="output">// Output: 3</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function countVowels(str) {
+  const matches = str.match(/[aeiou]/gi);
+  return matches ? matches.length : 0;
+}
+
+console.log(countVowels(&quot;javascript&quot;)); // 3</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="3"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q339</span><span class="q-text">Check whether a string is a palindrome.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>isPalindrome(str)</code> that returns true or false.</div>
+<pre><code>isPalindrome(&quot;madam&quot;);
+<span class="output">// Output: true</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function isPalindrome(str) {
+  const reversed = str.split(&quot;&quot;).reverse().join(&quot;&quot;);
+  return str === reversed;
+}
+
+console.log(isPalindrome(&quot;madam&quot;)); // true</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="3"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q340</span><span class="q-text">Convert the first letter of every word to uppercase.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>capitalize(str)</code> that title-cases each word.</div>
+<pre><code>capitalize(&quot;hello world&quot;);
+<span class="output">// Output: Hello World</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function capitalize(str) {
+  return str
+    .split(&quot; &quot;)
+    .map(word =&gt; word.charAt(0).toUpperCase() + word.slice(1))
+    .join(&quot; &quot;);
+}
+
+console.log(capitalize(&quot;hello world&quot;)); // Hello World</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="3"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q341</span><span class="q-text">Count how many times a character appears in a string.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Write a function <code>countChar(str, char)</code> that counts occurrences of char.</div>
+<pre><code>countChar(&quot;javascript&quot;, &quot;a&quot;);
+<span class="output">// Output: 2</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function countChar(str, char) {
+  return str.split(&quot;&quot;).filter(c =&gt; c === char).length;
+}
+
+console.log(countChar(&quot;javascript&quot;, &quot;a&quot;)); // 2</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+</div>
+
+<div class="subsection-label">Part 4 — Arrays</div>
+<div class="qa-grid">
+
+<div class="qa-card" data-cat="4"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q342</span><span class="q-text">Find the largest number in an array.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first, then check the reference solution.</div>
+<pre><code>[10, 20, 30, 40, 50]
+<span class="output">// Output: 50</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function findLargest(arr) {
+  return Math.max(...arr);
+}
+
+console.log(findLargest([10, 20, 30, 40, 50])); // 50</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="4"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q343</span><span class="q-text">Find the smallest number in an array.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first, then check the reference solution.</div>
+<pre><code>[10, 20, 30, 40, 50]
+<span class="output">// Output: 10</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function findSmallest(arr) {
+  return Math.min(...arr);
+}
+
+console.log(findSmallest([10, 20, 30, 40, 50])); // 10</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="4"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q344</span><span class="q-text">Find the sum of all array elements.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first, then check the reference solution.</div>
+<pre><code>[1,2,3,4,5]
+<span class="output">// Output: 15</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function sumArray(arr) {
+  return arr.reduce((total, n) =&gt; total + n, 0);
+}
+
+console.log(sumArray([1, 2, 3, 4, 5])); // 15</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="4"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q345</span><span class="q-text">Return only even numbers from an array.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first, then check the reference solution.</div>
+<pre><code>[1,2,3,4,5,6]
+<span class="output">// Output: [2,4,6]</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function getEvens(arr) {
+  return arr.filter(n =&gt; n % 2 === 0);
+}
+
+console.log(getEvens([1, 2, 3, 4, 5, 6])); // [2, 4, 6]</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+<div class="qa-card" data-cat="4"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q346</span><span class="q-text">Remove duplicate values from an array.</span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Try this yourself first, then check the reference solution.</div>
+<pre><code>[1,2,2,3,4,4,5]
+<span class="output">// Output: [1,2,3,4,5]</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+</div>
+
+<div class="subsection-label">🎯 Bonus Task — For Fast Learners</div>
+<div class="qa-grid">
+
+<div class="qa-card" data-cat="5"><div class="qa-question" onclick="toggle(this)"><span class="q-num">Q347</span><span class="q-text">Build a Student Marks Calculator that reports highest, lowest, average, and total marks. <span class="level-tag">Bonus</span></span><span class="q-toggle">▾</span></div><div class="qa-answer"><div class="ans-text"><strong>Practice task:</strong> Given an array of marks, compute the highest, lowest, average, and total.</div>
+<pre><code>[50, 60, 70, 80, 90]
+
+<span class="output">Highest Marks: 90
+Lowest Marks: 50
+Average Marks: 70
+Total Marks: 350</span></code></pre>
+</div>
+
+<div class="solution-dropdown">
+  <details>
+    <summary>💡 Complete Solution</summary>
+    <div class="solution-content">
+      <p class="solution-note">Try it yourself first. Open this when you need a reference.</p>
+      <pre><code>function studentMarksCalculator(marks) {
+  const highest = Math.max(...marks);
+  const lowest = Math.min(...marks);
+  const total = marks.reduce((sum, m) =&gt; sum + m, 0);
+  const average = total / marks.length;
+
+  console.log(&quot;Highest Marks:&quot;, highest);
+  console.log(&quot;Lowest Marks:&quot;, lowest);
+  console.log(&quot;Average Marks:&quot;, average);
+  console.log(&quot;Total Marks:&quot;, total);
+}
+
+studentMarksCalculator([50, 60, 70, 80, 90]);
+// Highest Marks: 90
+// Lowest Marks: 50
+// Average Marks: 70
+// Total Marks: 350</code></pre>
+    </div>
+  </details>
+</div>
+<div class="practice-console">
+  <div class="practice-console-title">⌘ Practice Console</div>
+  <textarea spellcheck="false" placeholder="// Write your solution here...
+console.log(2 + 3);" oninput="savePracticeCode(this)"></textarea>
+  <div class="practice-console-actions">
+    <button class="run" type="button" onclick="runPracticeCode(this)">▶ Run</button>
+    <button type="button" onclick="clearPracticeConsole(this)">Clear</button>
+  </div>
+  <div class="practice-output">&gt; Output will appear here</div>
+</div>
+</div>
+
+</div>
+</div>
+
 
 </main><button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
 <script>
